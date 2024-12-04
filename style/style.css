@@ -101,3 +101,18 @@ hr{
 margin-right: 50px;
 }
 
+.pos-dim-element{
+   justify-content: space-between;       
+}
+
+.fl-bas-cal{
+    flex-basis:calc(100%/3);
+    
+    
+}
+
+.text-ali-cen{
+
+    text-align: center;
+}
+
