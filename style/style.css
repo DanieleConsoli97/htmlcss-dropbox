@@ -1,0 +1,7 @@
+.flex{
+    display: flex;
+}
+.just-con-bet{
+    justify-content: space-between;
+}
+
