@@ -1,15 +1,33 @@
 .flex{
     display: flex;
 }
+
 .just-con-bet{
     justify-content: space-between;
 }
 
 .nav__ul-style{
-    list-style: none;
+    list-style: none;    
 }
 
 .ali-items-cen{
     align-items: center;
+}
 
+nav{
+   
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+nav li{
+margin: 0 10px;
+}
+
+nav button{
+    color:white;
+    background-color:#0061fe;
+    border: none;
+    padding: 10px 20px;
+    
 }
