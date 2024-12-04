@@ -1,3 +1,6 @@
+*{
+    font-family: sans-serif;
+}
 .flex{
     display: flex;
 }
@@ -14,6 +17,20 @@
     align-items: center;
 }
 
+
+
+
+
+
+.con-80{
+max-width: 80%;
+margin:0 auto;
+}
+.con-60{
+    max-width: 60%;
+    margin:0 auto;
+    }
+
 nav{
    
     padding: 30px;
@@ -24,10 +41,39 @@ nav li{
 margin: 0 10px;
 }
 
-nav button{
+.button-features{
     color:white;
     background-color:#0061fe;
     border: none;
     padding: 10px 20px;
-    
+}
+
+main section h1{
+    font-size: 60px;
+   
+}
+
+main section{
+    background-color:#b4d0e6;
+
+}
+
+section h1{
+   
+    margin-bottom: 50px;
+
+}
+   
+.mar-bot-30{
+    margin-bottom: 30px;
+
+}
+.mar-blo{
+    margin:30px 0 50px 0;
+
+}
+.arrow{
+    font-size: 100px;
+   
+
 }
