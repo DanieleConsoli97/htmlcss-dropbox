@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.pos-rela{
+    position: relative;
+
+}
 
 
 
@@ -76,4 +80,16 @@ section h1{
     font-size: 100px;
    
 
+}
+
+section div div.pos-abso img{
+    width: 700px ;
+
+
+}
+
+.pos-abso{
+    position:absolute;
+   top: 200px;
+   left:700px;
 }
