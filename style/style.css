@@ -5,3 +5,11 @@
     justify-content: space-between;
 }
 
+.nav__ul-style{
+    list-style: none;
+}
+
+.ali-items-cen{
+    align-items: center;
+
+}
