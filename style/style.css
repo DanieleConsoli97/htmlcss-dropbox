@@ -106,9 +106,7 @@ margin-right: 50px;
 }
 
 .fl-bas-cal{
-    flex-basis:calc(100%/3);
-    
-    
+    flex-basis:calc(100%/3);  
 }
 
 .div-p-style{
@@ -126,8 +124,36 @@ div.flex div ul{
 }
 
 
-div.flex div button{
-    margin-left: 20px;
+
+
+div.bor-sol li{
+    margin-block: 10px;
 }
 
+.main__button-style{
+    height: 100%;   
+    aspect-ratio: 1; 
+    border-radius: 50%;
+    background: white;
+}
+.main__button-blue{
+    border:5px solid #0061fe;
+   
+}
+.main__button-grey{
+    border: 2px solid grey;
 
+}
+.fl-bas-cal-50{
+    flex-basis:20%;  
+}
+
+.mar-top-50{
+    margin-top: 50px;
+
+}
+
+.containers__text{
+
+
+}

@@ -6,6 +6,7 @@
     <title>Dropbox</title>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/reset.css">
+     <link rel="stylesheet" href="./style/debug.css"> 
     <script src="https://kit.fontawesome.com/c3349b4dee.js" crossorigin="anonymous"></script>
     
 </head>
@@ -63,14 +64,17 @@
         
         
         
-        <div class="con-60">
-
+        <div class="con-60 mar-bot-30">
             <h1>Trova il piano business che fa per te</h1>   
-            <div class="flex ">
-                <button class="main__bottom-style"></button>   
-                <span class="mar-10">fatturazione mensile</span>
-                <button class="main__bottom-style"></button>   
-                <span>fatturazione annuale</span>
+            <div class="flex">               
+                <div class="fl-bas-cal-50 ">
+                    <button class="main__button-style main__button-blue "></button>   
+                    <span >fatturazione mensile</span>
+                </div>
+                <div class="fl-bas-cal-50 "> 
+                    <button class="main__button-style main__button-grey"></button>   
+                    <span>fatturazione annuale</span>
+                </div>   
             </div>
         </div>
         
@@ -95,7 +99,7 @@
                     <li><i class="fa-solid fa-share-nodes" style="color: #000000;"></i> Funzioni di produttività premium<br>
                     e condivisione file semplice e <br>sicura</li>
                 </ul>
-                <button>Prova gratis per 30 giorni</button>
+                <button class="button-features">Prova gratis per 30 giorni</button>
                 <p>oppure <a href="#">acquista ora</a></p>
                         
                 <!-- linea di separazione -->
@@ -126,7 +130,7 @@
                     <li><i class="fa-solid fa-folder" style="color: #000000;"></i> Tutto lo spazio di cui ha bisogno il<br> tuo team</li>
                     <li><i class="fa-solid fa-share-nodes" style="color: #000000;"></i>Sofisticate funzioni di controllo e<br>per tenere al sicuro tutti i file del<br>tuo team</li>
                 </ul>
-                <button>Prova gratis per 30 giorni</button>
+                <button class="button-features">Prova gratis per 30 giorni</button>
                 <p>oppure <a href="#">acquista ora</a></p>
                         
                 <!-- linea di separazione -->
@@ -185,7 +189,28 @@
 
         </div>
         <!-- fine sezione da flexare -->
+        <div class="con-60 mar-top-50">
+            
+                <!-- team -->
+                <div><p>Team</p></div>
+                <!-- div da flexare -->
+                <div class="conteiners-teams flex">
+                    <!-- testo -->
+                    <div class="containers__text">
+                        <h6>Enterprice</h6>
+                        <strong>Contatta l'ufficio vendite per i prezzi</strong>
+                        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
 
+                    </div>
+                    <!-- button -->
+                    <div class="containers__text">
+                        <button class="button-features">Contatta l'ufficio vendite</button>
+                    </div>
+
+                </div>
+
+
+        </div>
     </main>
 </body>
 </html>
