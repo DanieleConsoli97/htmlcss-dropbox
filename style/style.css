@@ -83,14 +83,14 @@ section h1{
 }
 
 section div div.pos-abso img{
-    width: 700px ;
+    width: 800px ;
 
 
 }
 
 .pos-abso{
     position:absolute;
-   top: 200px;
+   top: 280px;
    left:700px;
 }
 hr{
@@ -111,8 +111,23 @@ margin-right: 50px;
     
 }
 
-.text-ali-cen{
-
+.div-p-style{
+    border-bottom:1px solid #d0cfd2;
     text-align: center;
 }
+
+.bor-sol{
+  border: 1px solid #d0cfd2;
+}
+div.flex div ul{
+    list-style: none;
+    margin-block:20px ;
+    margin-left:20px;
+}
+
+
+div.flex div button{
+    margin-left: 20px;
+}
+
 
