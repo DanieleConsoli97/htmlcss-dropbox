@@ -198,6 +198,7 @@ margin-bottom: 30px;
 
 .container__partner{
     margin-top: 200px;
+    gap: 50px;
 }
 .container__partner__img{
     
@@ -212,5 +213,22 @@ margin-bottom: 30px;
 
 .container__partner__text{
     margin-top:60px;
-    flex-basis:50%;
+    flex-basis:30%;
+   
+
+
+}
+
+.container__partner__text li{
+
+    margin: 20px 0;
+
+
+}
+
+.button-color-white{
+    background-color:white;
+    border: 1px solid #d0cfd2;
+    color: black;
+
 }
