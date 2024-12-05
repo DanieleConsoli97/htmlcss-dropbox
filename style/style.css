@@ -153,7 +153,64 @@ div.bor-sol li{
 
 }
 
+.fl-bas-cal-66{
+    flex-basis:66%;  
+}
+
+
+
+.containers__button{
+    margin-top:20px;
+    margin-right:20px ;
+
+}
+
+#team{
+    text-align: center;
+    padding:20px;
+    border: 1px  solid #d0cfd2;
+}
+
+
+
 .containers__text{
 
+    margin-left: 20px;                
 
+}
+
+.tex-ali-ce{
+    text-align: center;
+}
+
+div.containers__text.fl-bas-cal-66 >div{
+
+margin-bottom: 30px;
+
+}
+.conteiners-teams{
+    border: 1px solid #d0cfd2;
+    
+
+}
+
+
+
+.container__partner{
+    margin-top: 200px;
+}
+.container__partner__img{
+    
+    flex-basis:50%;
+
+}
+.container__partner__img img{
+    width: 550px;
+    
+
+}
+
+.container__partner__text{
+    margin-top:60px;
+    flex-basis:50%;
 }
